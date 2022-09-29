@@ -1,0 +1,39 @@
+.header {
+    padding: 10px 20px;
+    border-bottom: 1px solid #ededed;
+
+    .logo {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        text-transform: uppercase;
+        color: black;
+
+        a {
+            text-decoration: none;
+        }
+
+    }
+
+    .main-nav {
+        ul {
+            display: flex;
+            margin: 0;
+            align-items: center;
+            list-style: none;
+            li {
+                margin-right: 10px;
+            }
+
+            a {
+                color: #6f42c1;
+                text-decoration: none;
+                transition: 0.2s;
+
+                &:hover {
+                    opacity: 0.9;
+                }
+            }
+        }
+    }
+}
